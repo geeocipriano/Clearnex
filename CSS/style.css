@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,300&display=swap");
 * {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 li {
@@ -11,11 +13,11 @@ li {
 }
 
 body {
-  background-color: #fff;
+  background-color: #264653;
 }
 
 .container {
-  background-color: gray;
+  background-color: #2a9d8f;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.3s;
@@ -35,7 +37,7 @@ body {
 }
 
 .container .sidebar .side-itens {
-  background-color: darkorange;
+  background-color: #f4a261;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -69,7 +71,7 @@ body {
   padding: 1em;
 }
 
-.container .sidebar .side-itens .side-top div {
+.container .sidebar .side-itens .side-top p {
   margin-bottom: .5em;
 }
 
@@ -83,5 +85,88 @@ body {
 
 .container .sidebar .side-itens .side-mid .side-mid-itens li {
   margin-top: 2em;
+}
+
+.hero .hero-itens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .hero-itens .hero-find {
+  width: 100%;
+  margin: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .hero-itens .hero-find-content {
+  width: 100%;
+}
+
+.hero .hero-itens .hero-find-content .hero-find-friends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.hero .hero-itens .hero-find-content .hero-find-friends li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10%;
+  width: 6em;
+  height: 7em;
+  margin: 1em;
+  background-color: red;
+}
+
+.hero .hero-itens .hero-find-content .hero-find-friends li button {
+  margin-bottom: .5em;
+}
+
+.hero .hero-itens .hero-find-content .hero-find-friends .p-face {
+  width: 50px;
+  margin-top: .5em;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
